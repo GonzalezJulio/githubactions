@@ -1,0 +1,12 @@
+name: Hola Mundo Workflow2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Mostrar saludo
+        run: echo "Hola Mundo"
